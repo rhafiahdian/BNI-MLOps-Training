@@ -13,7 +13,7 @@ max_depth = int(sys.argv[2]) if len(sys.argv) > 2 else 5
 
 
 # Load data
-df = pd.read_csv("data/train.csv")
+df = pd.read_csv("train.csv")
 
 X_train, X_test, y_train, y_test = train_test_split(
     df.drop("target", axis=1),

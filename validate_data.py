@@ -8,7 +8,7 @@ from pathlib import Path
 # 1. Load dataset
 # ============================================================
 
-data_path = Path("data/train.csv")
+data_path = Path("train.csv")
 
 if not data_path.exists():
     print(f"GAGAL: File tidak ditemukan: {data_path}")

@@ -5,8 +5,8 @@ from evidently import Report
 from evidently.presets import DataDriftPreset
 
 
-REFERENCE_DATA = "data/train.csv"
-CURRENT_DATA = "data/production_simulasi.csv"
+REFERENCE_DATA = "train.csv"
+CURRENT_DATA = "production_simulasi.csv"
 REPORT_FILE = "drift_report.html"
 
 
